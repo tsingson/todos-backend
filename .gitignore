@@ -2,6 +2,7 @@
 bin/
 bin-debug/
 bin-release/
+vendor/
 
 # Other files and folders
 .settings/
