@@ -4,8 +4,6 @@ bin-debug/
 bin-release/
 vendor/
 pkg/
-src/learning
-verifycode/
 
 
 # Other files and folders

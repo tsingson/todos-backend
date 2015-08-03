@@ -119,7 +119,8 @@ func main() {
 		})
 	*/
 
-	staticHtmlPath := "/Users/qinshen/git/web-project/dashboard-ui-es6/build"
+	staticHtmlPath := "/Users/qinshen/git/personal_project/todos/todos-font/layout-demo"
+	// "/Users/qinshen/git/web-project/dashboard-ui-es6/build"
 
 	router.Static("/static", staticHtmlPath)
 
@@ -150,6 +151,24 @@ func main() {
 	private.GET("/", func(c *gin.Context) {
 		c.JSON(200, gin.H{"message": "Hello from private"})
 	})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	router.Run("localhost:8080")
 }
